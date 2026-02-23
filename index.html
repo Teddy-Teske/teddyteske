@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teddy Teske | Author</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0a;
+    color: #e5e5e5;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    border-bottom: 1px solid #222;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+section {
+    padding: 120px 40px;
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #aaa;
+}
+
+.book-section {
+    text-align: center;
+}
+
+.book-placeholder {
+    width: 250px;
+    height: 380px;
+    background: #222;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    border: 2px dashed #444;
+}
+
+.book-desc {
+    max-width: 700px;
+    margin: auto;
+    color: #bbb;
+}
+
+.amazon-btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #e50914;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.amazon-btn:hover {
+    background: #ff1c27;
+}
+
+.mail-section {
+    text-align: center;
+}
+
+.mail-box {
+    background: #111;
+    padding: 40px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #333;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #000;
+    border: 1px solid #444;
+    color: white;
+}
+
+button {
+    padding: 12px 30px;
+    margin-top: 20px;
+    background: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1c27;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TEDDY TESKE</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#mail">Join</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Beyond The Glitch</h1>
+        <p>Are We Living In The Matrix?<br>
+        A Beginner's Guide to Simulation Theory</p>
+    </div>
+</section>
+
+<section id="book" class="book-section">
+    <h2>My First Book</h2>
+
+    <div class="book-placeholder">
+        Book Cover Placeholder
+    </div>
+
+    <div class="book-desc">
+        <p>
+        Description coming soon. This section will explain what the book is about,
+        what readers will learn, and why they should check it out.
+        </p>
+
+        <a href="#" class="amazon-btn">View on Amazon</a>
+    </div>
+</section>
+
+<section id="mail" class="mail-section">
+    <h2>Join My Mailing List</h2>
+
+    <div class="mail-box">
+        <p>Get updates, new releases, and exclusive content.</p>
+
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <br>
+            <button type="submit">Join Now</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 Teddy Teske
+</footer>
+
+</body>
+</html>
