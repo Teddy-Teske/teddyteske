@@ -20,7 +20,7 @@ header {
     width: 100%;
     background: #000;
     border-bottom: 1px solid #222;
-    padding: 20px 40px;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,10 +28,20 @@ header {
 }
 
 .logo {
-    font-size: 26px;
+    line-height: 1;
+}
+
+.logo-small {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #aaa;
+}
+
+.logo-large {
+    font-size: 30px;
     font-weight: bold;
+    letter-spacing: 3px;
     color: #fff;
-    letter-spacing: 2px;
 }
 
 nav a {
@@ -67,6 +77,12 @@ section {
 .hero p {
     font-size: 20px;
     color: #aaa;
+}
+
+.about-section {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
 }
 
 .book-section {
@@ -153,9 +169,13 @@ footer {
 <body>
 
 <header>
-    <div class="logo">TEDDY TESKE</div>
+    <div class="logo">
+        <div class="logo-small">TEDDY</div>
+        <div class="logo-large">TESKE</div>
+    </div>
     <nav>
         <a href="#home">Home</a>
+        <a href="#about">About</a>
         <a href="#book">Book</a>
         <a href="#mail">Join</a>
     </nav>
@@ -167,6 +187,17 @@ footer {
         <p>Are We Living In The Matrix?<br>
         A Beginner's Guide to Simulation Theory</p>
     </div>
+</section>
+
+<section id="about" class="about-section">
+    <h2>About The Author</h2>
+    <p>
+        Teddy Teske is a sound designer, systems administrator, and emerging author with a passion
+        for exploring the intersection of technology, consciousness, and reality. At age 39, he
+        published his debut book, <em>Beyond The Glitch: Are We Living In The Matrix? A Beginner’s
+        Guide to Simulation Theory</em>, which introduces readers to complex philosophical and
+        scientific ideas in an accessible and thought-provoking way.
+    </p>
 </section>
 
 <section id="book" class="book-section">
